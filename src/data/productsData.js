@@ -984,7 +984,7 @@ export const PRODUCTS_DATA = {
     // },
     intro: {
       title: "A spring mattress done right.",
-      subtitle: "A hand-crafted, two-sided mattress built to last.",
+      subtitle: "Latex comfort layer, quiet pocket spring base, cool all night",
     },
     // zoomer1: {
     //   image: "Hybrid-Carousel-01_640x400_q93.webp",
@@ -1073,7 +1073,7 @@ export const PRODUCTS_DATA = {
     ],
     intro: {
       title: "A spring mattress done right.",
-      subtitle: "A hand-crafted, two-sided mattress built to last.",
+      subtitle: "Latex comfort layer, quiet pocket spring base, cool all night",
     },
     // zoomer1: {
     //   image: "Hybrid-Carousel-01_640x400_q93.webp",
@@ -1162,7 +1162,7 @@ export const PRODUCTS_DATA = {
     ],
     intro: {
       title: "A spring mattress done right.",
-      subtitle: "A hand-crafted, two-sided mattress built to last.",
+      subtitle: "Latex comfort layer, quiet pocket spring base, cool all night",
     },
     // zoomer1: {
     //   image: "Hybrid-Carousel-01_640x400_q93.webp",
@@ -1251,7 +1251,7 @@ export const PRODUCTS_DATA = {
     ],
     intro: {
       title: "A spring mattress done right.",
-      subtitle: "A hand-crafted, two-sided mattress built to last.",
+      subtitle: "Latex comfort layer, quiet pocket spring base, cool all night",
     },
     // zoomer1: {
     //   image: "Hybrid-Carousel-01_640x400_q93.webp",
@@ -1340,7 +1340,7 @@ export const PRODUCTS_DATA = {
     ],
     intro: {
       title: "A spring mattress done right.",
-      subtitle: "A hand-crafted, two-sided mattress built to last.",
+      subtitle: "Latex comfort layer, quiet pocket spring base, cool all night",
     },
     // zoomer1: {
     //   image: "Hybrid-Carousel-01_640x400_q93.webp",
@@ -1429,7 +1429,7 @@ export const PRODUCTS_DATA = {
     ],
     intro: {
       title: "A spring mattress done right.",
-      subtitle: "A hand-crafted, two-sided mattress built to last.",
+      subtitle: "Latex comfort layer, quiet pocket spring base, cool all night",
     },
     // zoomer1: {
     //   image: "Hybrid-Carousel-01_640x400_q93.webp",
@@ -1518,7 +1518,7 @@ export const PRODUCTS_DATA = {
     ],
     intro: {
       title: "A spring mattress done right.",
-      subtitle: "A hand-crafted, two-sided mattress built to last.",
+      subtitle: "Latex comfort layer, quiet pocket spring base, cool all night",
     },
     // zoomer1: {
     //   image: "Hybrid-Carousel-01_640x400_q93.webp",
@@ -1607,7 +1607,7 @@ export const PRODUCTS_DATA = {
     ],
     intro: {
       title: "A spring mattress done right.",
-      subtitle: "A hand-crafted, two-sided mattress built to last.",
+      subtitle: "Latex comfort layer, quiet pocket spring base, cool all night",
     },
     // zoomer1: {
     //   image: "Hybrid-Carousel-01_640x400_q93.webp",
