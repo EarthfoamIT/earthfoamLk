@@ -1027,6 +1027,40 @@ ef-product-image-copy,
   display: block;
 }
 
+/* Fill the full height of the row with the image (cropping its sides if it's
+   wider than the column), and keep the hotspots aligned to the cropped image
+   via an overlay with the image's aspect ratio, centered like object-fit. */
+.ef-product-image-map .map--cover {
+  overflow: hidden;
+  border-radius: var(--radius-s, 8px);
+}
+
+.ef-product-image-map .map--cover .map-hotspots {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+}
+
+/* On desktop the map's height is locked to the descriptions column's
+   collapsed height (--map-min-height, measured in CatalogueProducts.jsx), or
+   the image's natural height if that's taller, so expanding a layer's
+   description grows the row without resizing the image. */
+@media (min-width: 1024px) {
+  .ef-product-image-map .map--cover {
+    align-self: flex-start;
+    aspect-ratio: var(--map-ratio);
+    min-height: var(--map-min-height);
+  }
+  .ef-product-image-map .map--cover img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
 .ef-map-hotspot {
   position: absolute;
   width: 32px;

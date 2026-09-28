@@ -246,6 +246,15 @@ export default function CatalogueProducts({ slug }) {
   const [openInfoDrawer, setOpenInfoDrawer] = useState(null);
   const [hoveredHotspot, setHoveredHotspot] = useState(null);
   const [expandedHotspot, setExpandedHotspot] = useState(null);
+  // Natural width/height of the hotspot image, so the hotspot overlay can be
+  // sized to match the image when it's cropped (object-fit: cover) to fill
+  // the full height of the map column.
+  const [hotspotImageRatio, setHotspotImageRatio] = useState(null);
+  // Height of the hotspot descriptions column with every layer collapsed.
+  // The map is locked to this height so expanding a layer's description
+  // doesn't make the image grow with the row.
+  const hotspotDescriptionsRef = useRef(null);
+  const [hotspotCollapsedHeight, setHotspotCollapsedHeight] = useState(null);
   const [openMobileSections, setOpenMobileSections] = useState({});
   const [openGuaranteeIndex, setOpenGuaranteeIndex] = useState(0);
   const [activeVideoModal, setActiveVideoModal] = useState(null);
@@ -338,6 +347,27 @@ export default function CatalogueProducts({ slug }) {
 
     return () => clearTimeout(timer);
   }, [slug, activeImageIndex, product?.heroImages?.length]);
+
+  // Track the hotspot descriptions column's collapsed height: its current
+  // height minus whatever the expanded descriptions add (a collapsed
+  // .expand-cont is 0px tall), so the value stays constant mid-animation.
+  useEffect(() => {
+    const el = hotspotDescriptionsRef.current;
+    if (!el) return;
+
+    const measure = () => {
+      const expandedHeight = [...el.querySelectorAll(".expand-cont")].reduce(
+        (sum, cont) => sum + cont.getBoundingClientRect().height,
+        0
+      );
+      setHotspotCollapsedHeight(Math.round(el.getBoundingClientRect().height - expandedHeight));
+    };
+
+    measure();
+    const observer = new ResizeObserver(measure);
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [slug]);
 
   if (!product) {
     return <NotFoundPage />;
@@ -1040,6 +1070,11 @@ export default function CatalogueProducts({ slug }) {
           </div>
           <div className="body container" style={{ marginBlock: "var(--space-m)", paddingInline: "var(--space-2xl)" }}>
             <h2 className="eyebrow">{product.imageCopy2.eyebrow}</h2>
+            {product.imageCopy2.title && (
+              <ul style={{ marginTop: "var(--space-s)" }}>
+                <li className="h2" >{product.imageCopy2.title}</li>
+              </ul>
+            )}
             {product.imageCopy2.bullets && (
               <ul style={{ marginTop: "var(--space-s)" }}>
                 {product.imageCopy2.bullets.map((b) => (
@@ -1076,12 +1111,24 @@ export default function CatalogueProducts({ slug }) {
           className="ef-product-image-map flex-y lg:flex-x-rev container-responsive-lg"
           style={{ maxWidth: "var(--content-maxwidth)", gap: "var(--space-s)", marginBlock: "var(--space-2xl)" }}
         >
-          <div className="map">
+          <div
+            className="map map--cover"
+            style={{
+              "--map-ratio": hotspotImageRatio || "auto",
+              "--map-min-height": hotspotCollapsedHeight ? `${hotspotCollapsedHeight}px` : "0px",
+            }}
+          >
             <img
               src={asset(product.hotspots.image)}
+              srcSet={product.hotspots.srcSet}
               alt="Product cross section diagram"
               sizes="100vw"
+              onLoad={(e) => setHotspotImageRatio(e.currentTarget.naturalWidth / e.currentTarget.naturalHeight)}
             />
+            <div
+              className="map-hotspots"
+              style={hotspotImageRatio ? { aspectRatio: hotspotImageRatio } : { width: "100%" }}
+            >
             {product.hotspots.layers.map((layer, idx) => (
               <button
                 key={layer.num}
@@ -1097,9 +1144,10 @@ export default function CatalogueProducts({ slug }) {
                 {layer.num}
               </button>
             ))}
+            </div>
           </div>
 
-          <div className="descriptions" style={{ paddingBlock: "var(--space-l)" }}>
+          <div className="descriptions" ref={hotspotDescriptionsRef} style={{ paddingBlock: "var(--space-l)" }}>
             <hgroup className="container" style={{ marginBottom: "var(--space-m)", paddingInline: "var(--space-xs)" }}>
               <h2 className="eyebrow" style={{ marginBottom: "var(--space-s)" }}>
                 {product.hotspots.title}

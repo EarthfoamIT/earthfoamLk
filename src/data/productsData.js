@@ -782,65 +782,65 @@ export const PRODUCTS_DATA = {
   //     image: "Hybrid-Carousel-01_640x400_q93.webp",
   //     videoNotification: null,
   //   },
-  //   imageCopy1: {
-  //     eyebrow: "Our Coil System",
-  //     title: "Introducing power loaded coils.",
-  //     paragraphs: [
-  //       "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
-  //       "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
-  //     ],
-  //     image: "spring-image03_640x829_q93.webp",
-  //     order: "",
-  //   },
-  //   hotspots: {
-  //     image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
-  //     title: "DESIGN",
-  //     subtitle: "No glue. No Adhesives. Just organic latex, cotton, wool and springs.",
-  //     layers: [
-  //       {
-  //         num: 1,
-  //         x: 38,
-  //         y: 82,
-  //         title: "Earthfoam Base",
-  //         desc: "Dense buoyant base support layer made of pure organic rubber.",
-  //       },
-  //       {
-  //         num: 2,
-  //         x: 46,
-  //         y: 72,
-  //         title: "Quad Coil System",
-  //         desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
-  //       },
-  //       {
-  //         num: 3,
-  //         x: 33,
-  //         y: 40,
-  //         title: "Earthfoam Comfort Layer",
-  //         desc: "Plush natural rubber cushion for pinpoint pressure relief across body contours.",
-  //       },
-  //       {
-  //         num: 4,
-  //         x: 51,
-  //         y: 41,
-  //         title: "Organic Wool Batting",
-  //         desc: "Temperature regulating, natural chemical-free flame retardant layer.",
-  //       },
-  //       {
-  //         num: 5,
-  //         x: 40,
-  //         y: 27,
-  //         title: "Organic Cotton Knit Face",
-  //         desc: "Luxurious heavyweight organic knit outer face fabric.",
-  //       },
-  //       {
-  //         num: 6,
-  //         x: 54,
-  //         y: 58,
-  //         title: "Organic Hemp Batting",
-  //         desc: "Durable organic hemp layer for unmatched structural integrity.",
-  //       },
-  //     ],
-  //   },
+    // imageCopy1: {
+    //   eyebrow: "Our Coil System",
+    //   title: "Introducing power loaded coils.",
+    //   paragraphs: [
+    //     "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
+    //     "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
+    //   ],
+    //   image: "spring-image03_640x829_q93.webp",
+    //   order: "",
+    // },
+    // hotspots: {
+    //   image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
+    //   title: "DESIGN",
+    //   subtitle: "No glue. No Adhesives. Just organic latex, cotton, wool and springs.",
+    //   layers: [
+    //     {
+    //       num: 1,
+    //       x: 38,
+    //       y: 82,
+    //       title: "Earthfoam Base",
+    //       desc: "Dense buoyant base support layer made of pure organic rubber.",
+    //     },
+    //     {
+    //       num: 2,
+    //       x: 46,
+    //       y: 72,
+    //       title: "Quad Coil System",
+    //       desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
+    //     },
+    //     {
+    //       num: 3,
+    //       x: 33,
+    //       y: 40,
+    //       title: "Earthfoam Comfort Layer",
+    //       desc: "Plush natural rubber cushion for pinpoint pressure relief across body contours.",
+    //     },
+    //     {
+    //       num: 4,
+    //       x: 51,
+    //       y: 41,
+    //       title: "Organic Wool Batting",
+    //       desc: "Temperature regulating, natural chemical-free flame retardant layer.",
+    //     },
+    //     {
+    //       num: 5,
+    //       x: 40,
+    //       y: 27,
+    //       title: "Organic Cotton Knit Face",
+    //       desc: "Luxurious heavyweight organic knit outer face fabric.",
+    //     },
+    //     {
+    //       num: 6,
+    //       x: 54,
+    //       y: 58,
+    //       title: "Organic Hemp Batting",
+    //       desc: "Durable organic hemp layer for unmatched structural integrity.",
+    //     },
+    //   ],
+    // },
   //   zoomer2: {
   //     image: "EF_Spring_ProdZoom2_640x427_q93.webp",
   //     videoNotification: null,
@@ -978,9 +978,80 @@ export const PRODUCTS_DATA = {
       { name: "ISO 9001 : 2015" },
       { name: "ISO 14001" },
     ],
+    // intro: {
+    //   title: "What a dream.",
+    //   subtitle: "Naturally breathable, comfy but firm, super supportive, no sinking feeling.",
+    // },
     intro: {
-      title: "What a dream.",
-      subtitle: "Naturally breathable, comfy but firm, super supportive, no sinking feeling.",
+      title: "A spring mattress done right.",
+      subtitle: "A hand-crafted, two-sided mattress built to last.",
+    },
+    // zoomer1: {
+    //   image: "Hybrid-Carousel-01_640x400_q93.webp",
+    //   srcSet:
+    //     "/assets/Hybrid-Carousel-01_640x400_q93.webp 640w, /assets/Hybrid-Carousel-01_1024x640_q93.webp 1024w, /assets/Hybrid-Carousel-01_1280x800_q93.webp 1280w, /assets/Hybrid-Carousel-01_2560x1600_q93.webp 2560w",
+    //   videoNotification: null,
+    // },
+    imageCopy2: {
+      eyebrow: "Our Coil System",
+      title: "Introducing power loaded coils.",
+      paragraphs: [
+        "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
+        "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
+      ],
+      image: "spring-image03_640x829_q93.webp",
+      order: "",
+    },
+    hotspots: {
+      image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
+      srcSet:
+        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1024x575_q65.webp 1024w",
+      title: "DESIGN",
+      subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
+      layers: [
+        {
+          num: 1,
+          x: 38,
+          y: 82,
+          title: "Earthfoam Base",
+          desc: "Dense buoyant base support layer made of pure organic rubber.",
+        },
+        {
+          num: 2,
+          x: 46,
+          y: 72,
+          title: "Quad Coil System",
+          desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
+        },
+        {
+          num: 3,
+          x: 33,
+          y: 40,
+          title: "Earthfoam Comfort Layer",
+          desc: "Plush natural rubber cushion for pinpoint pressure relief across body contours.",
+        },
+        {
+          num: 4,
+          x: 51,
+          y: 41,
+          title: "Organic Wool Batting",
+          desc: "Temperature regulating, natural chemical-free flame retardant layer.",
+        },
+        {
+          num: 5,
+          x: 40,
+          y: 27,
+          title: "Organic Cotton Knit Face",
+          desc: "Luxurious heavyweight organic knit outer face fabric.",
+        },
+        {
+          num: 6,
+          x: 54,
+          y: 58,
+          title: "Organic Hemp Batting",
+          desc: "Durable organic hemp layer for unmatched structural integrity.",
+        },
+      ],
     },
   },
   "hybrid-mattress-ventura": {
@@ -1000,6 +1071,77 @@ export const PRODUCTS_DATA = {
         alt: "Earthfoam Hybrid Mattress Ventura",
       },
     ],
+    intro: {
+      title: "A spring mattress done right.",
+      subtitle: "A hand-crafted, two-sided mattress built to last.",
+    },
+    // zoomer1: {
+    //   image: "Hybrid-Carousel-01_640x400_q93.webp",
+    //   srcSet:
+    //     "/assets/Hybrid-Carousel-01_640x400_q93.webp 640w, /assets/Hybrid-Carousel-01_1024x640_q93.webp 1024w, /assets/Hybrid-Carousel-01_1280x800_q93.webp 1280w, /assets/Hybrid-Carousel-01_2560x1600_q93.webp 2560w",
+    //   videoNotification: null,
+    // },
+    imageCopy2: {
+      eyebrow: "Our Coil System",
+      title: "Introducing power loaded coils.",
+      paragraphs: [
+        "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
+        "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
+      ],
+      image: "spring-image03_640x829_q93.webp",
+      order: "",
+    },
+    hotspots: {
+      image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
+      srcSet:
+        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1024x575_q65.webp 1024w",
+      title: "DESIGN",
+      subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
+      layers: [
+        {
+          num: 1,
+          x: 38,
+          y: 82,
+          title: "Earthfoam Base",
+          desc: "Dense buoyant base support layer made of pure organic rubber.",
+        },
+        {
+          num: 2,
+          x: 46,
+          y: 72,
+          title: "Quad Coil System",
+          desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
+        },
+        {
+          num: 3,
+          x: 33,
+          y: 40,
+          title: "Earthfoam Comfort Layer",
+          desc: "Plush natural rubber cushion for pinpoint pressure relief across body contours.",
+        },
+        {
+          num: 4,
+          x: 51,
+          y: 41,
+          title: "Organic Wool Batting",
+          desc: "Temperature regulating, natural chemical-free flame retardant layer.",
+        },
+        {
+          num: 5,
+          x: 40,
+          y: 27,
+          title: "Organic Cotton Knit Face",
+          desc: "Luxurious heavyweight organic knit outer face fabric.",
+        },
+        {
+          num: 6,
+          x: 54,
+          y: 58,
+          title: "Organic Hemp Batting",
+          desc: "Durable organic hemp layer for unmatched structural integrity.",
+        },
+      ],
+    },
   },
   "hybrid-mattress-brandford": {
     slug: "hybrid-mattress-brandford",
@@ -1018,6 +1160,77 @@ export const PRODUCTS_DATA = {
         alt: "Earthfoam Hybrid Mattress Brandford",
       },
     ],
+    intro: {
+      title: "A spring mattress done right.",
+      subtitle: "A hand-crafted, two-sided mattress built to last.",
+    },
+    // zoomer1: {
+    //   image: "Hybrid-Carousel-01_640x400_q93.webp",
+    //   srcSet:
+    //     "/assets/Hybrid-Carousel-01_640x400_q93.webp 640w, /assets/Hybrid-Carousel-01_1024x640_q93.webp 1024w, /assets/Hybrid-Carousel-01_1280x800_q93.webp 1280w, /assets/Hybrid-Carousel-01_2560x1600_q93.webp 2560w",
+    //   videoNotification: null,
+    // },
+    imageCopy2: {
+      eyebrow: "Our Coil System",
+      title: "Introducing power loaded coils.",
+      paragraphs: [
+        "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
+        "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
+      ],
+      image: "spring-image03_640x829_q93.webp",
+      order: "",
+    },
+    hotspots: {
+      image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
+      srcSet:
+        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1024x575_q65.webp 1024w",
+      title: "DESIGN",
+      subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
+      layers: [
+        {
+          num: 1,
+          x: 38,
+          y: 82,
+          title: "Earthfoam Base",
+          desc: "Dense buoyant base support layer made of pure organic rubber.",
+        },
+        {
+          num: 2,
+          x: 46,
+          y: 72,
+          title: "Quad Coil System",
+          desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
+        },
+        {
+          num: 3,
+          x: 33,
+          y: 40,
+          title: "Earthfoam Comfort Layer",
+          desc: "Plush natural rubber cushion for pinpoint pressure relief across body contours.",
+        },
+        {
+          num: 4,
+          x: 51,
+          y: 41,
+          title: "Organic Wool Batting",
+          desc: "Temperature regulating, natural chemical-free flame retardant layer.",
+        },
+        {
+          num: 5,
+          x: 40,
+          y: 27,
+          title: "Organic Cotton Knit Face",
+          desc: "Luxurious heavyweight organic knit outer face fabric.",
+        },
+        {
+          num: 6,
+          x: 54,
+          y: 58,
+          title: "Organic Hemp Batting",
+          desc: "Durable organic hemp layer for unmatched structural integrity.",
+        },
+      ],
+    },
   },
   "hybrid-mattress-meriden": {
     slug: "hybrid-mattress-meriden",
@@ -1036,6 +1249,77 @@ export const PRODUCTS_DATA = {
         alt: "Earthfoam Hybrid Mattress Meriden",
       },
     ],
+    intro: {
+      title: "A spring mattress done right.",
+      subtitle: "A hand-crafted, two-sided mattress built to last.",
+    },
+    // zoomer1: {
+    //   image: "Hybrid-Carousel-01_640x400_q93.webp",
+    //   srcSet:
+    //     "/assets/Hybrid-Carousel-01_640x400_q93.webp 640w, /assets/Hybrid-Carousel-01_1024x640_q93.webp 1024w, /assets/Hybrid-Carousel-01_1280x800_q93.webp 1280w, /assets/Hybrid-Carousel-01_2560x1600_q93.webp 2560w",
+    //   videoNotification: null,
+    // },
+    imageCopy2: {
+      eyebrow: "Our Coil System",
+      title: "Introducing power loaded coils.",
+      paragraphs: [
+        "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
+        "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
+      ],
+      image: "spring-image03_640x829_q93.webp",
+      order: "",
+    },
+    hotspots: {
+      image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
+      srcSet:
+        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1024x575_q65.webp 1024w",
+      title: "DESIGN",
+      subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
+      layers: [
+        {
+          num: 1,
+          x: 38,
+          y: 82,
+          title: "Earthfoam Base",
+          desc: "Dense buoyant base support layer made of pure organic rubber.",
+        },
+        {
+          num: 2,
+          x: 46,
+          y: 72,
+          title: "Quad Coil System",
+          desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
+        },
+        {
+          num: 3,
+          x: 33,
+          y: 40,
+          title: "Earthfoam Comfort Layer",
+          desc: "Plush natural rubber cushion for pinpoint pressure relief across body contours.",
+        },
+        {
+          num: 4,
+          x: 51,
+          y: 41,
+          title: "Organic Wool Batting",
+          desc: "Temperature regulating, natural chemical-free flame retardant layer.",
+        },
+        {
+          num: 5,
+          x: 40,
+          y: 27,
+          title: "Organic Cotton Knit Face",
+          desc: "Luxurious heavyweight organic knit outer face fabric.",
+        },
+        {
+          num: 6,
+          x: 54,
+          y: 58,
+          title: "Organic Hemp Batting",
+          desc: "Durable organic hemp layer for unmatched structural integrity.",
+        },
+      ],
+    },
   },
   "hybrid-mattress-athens-euro-top": {
     slug: "hybrid-mattress-athens-euro-top",
@@ -1054,6 +1338,77 @@ export const PRODUCTS_DATA = {
         alt: "Earthfoam Hybrid Mattress Athens Euro Top",
       },
     ],
+    intro: {
+      title: "A spring mattress done right.",
+      subtitle: "A hand-crafted, two-sided mattress built to last.",
+    },
+    // zoomer1: {
+    //   image: "Hybrid-Carousel-01_640x400_q93.webp",
+    //   srcSet:
+    //     "/assets/Hybrid-Carousel-01_640x400_q93.webp 640w, /assets/Hybrid-Carousel-01_1024x640_q93.webp 1024w, /assets/Hybrid-Carousel-01_1280x800_q93.webp 1280w, /assets/Hybrid-Carousel-01_2560x1600_q93.webp 2560w",
+    //   videoNotification: null,
+    // },
+    imageCopy2: {
+      eyebrow: "Our Coil System",
+      title: "Introducing power loaded coils.",
+      paragraphs: [
+        "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
+        "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
+      ],
+      image: "spring-image03_640x829_q93.webp",
+      order: "",
+    },
+    hotspots: {
+      image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
+      srcSet:
+        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1024x575_q65.webp 1024w",
+      title: "DESIGN",
+      subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
+      layers: [
+        {
+          num: 1,
+          x: 38,
+          y: 82,
+          title: "Earthfoam Base",
+          desc: "Dense buoyant base support layer made of pure organic rubber.",
+        },
+        {
+          num: 2,
+          x: 46,
+          y: 72,
+          title: "Quad Coil System",
+          desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
+        },
+        {
+          num: 3,
+          x: 33,
+          y: 40,
+          title: "Earthfoam Comfort Layer",
+          desc: "Plush natural rubber cushion for pinpoint pressure relief across body contours.",
+        },
+        {
+          num: 4,
+          x: 51,
+          y: 41,
+          title: "Organic Wool Batting",
+          desc: "Temperature regulating, natural chemical-free flame retardant layer.",
+        },
+        {
+          num: 5,
+          x: 40,
+          y: 27,
+          title: "Organic Cotton Knit Face",
+          desc: "Luxurious heavyweight organic knit outer face fabric.",
+        },
+        {
+          num: 6,
+          x: 54,
+          y: 58,
+          title: "Organic Hemp Batting",
+          desc: "Durable organic hemp layer for unmatched structural integrity.",
+        },
+      ],
+    },
   },
   "hybrid-mattress-athens-legacy": {
     slug: "hybrid-mattress-athens-legacy",
@@ -1072,6 +1427,77 @@ export const PRODUCTS_DATA = {
         alt: "Earthfoam Hybrid Mattress Athens Legacy",
       },
     ],
+    intro: {
+      title: "A spring mattress done right.",
+      subtitle: "A hand-crafted, two-sided mattress built to last.",
+    },
+    // zoomer1: {
+    //   image: "Hybrid-Carousel-01_640x400_q93.webp",
+    //   srcSet:
+    //     "/assets/Hybrid-Carousel-01_640x400_q93.webp 640w, /assets/Hybrid-Carousel-01_1024x640_q93.webp 1024w, /assets/Hybrid-Carousel-01_1280x800_q93.webp 1280w, /assets/Hybrid-Carousel-01_2560x1600_q93.webp 2560w",
+    //   videoNotification: null,
+    // },
+    imageCopy2: {
+      eyebrow: "Our Coil System",
+      title: "Introducing power loaded coils.",
+      paragraphs: [
+        "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
+        "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
+      ],
+      image: "spring-image03_640x829_q93.webp",
+      order: "",
+    },
+    hotspots: {
+      image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
+      srcSet:
+        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1024x575_q65.webp 1024w",
+      title: "DESIGN",
+      subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
+      layers: [
+        {
+          num: 1,
+          x: 38,
+          y: 82,
+          title: "Earthfoam Base",
+          desc: "Dense buoyant base support layer made of pure organic rubber.",
+        },
+        {
+          num: 2,
+          x: 46,
+          y: 72,
+          title: "Quad Coil System",
+          desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
+        },
+        {
+          num: 3,
+          x: 33,
+          y: 40,
+          title: "Earthfoam Comfort Layer",
+          desc: "Plush natural rubber cushion for pinpoint pressure relief across body contours.",
+        },
+        {
+          num: 4,
+          x: 51,
+          y: 41,
+          title: "Organic Wool Batting",
+          desc: "Temperature regulating, natural chemical-free flame retardant layer.",
+        },
+        {
+          num: 5,
+          x: 40,
+          y: 27,
+          title: "Organic Cotton Knit Face",
+          desc: "Luxurious heavyweight organic knit outer face fabric.",
+        },
+        {
+          num: 6,
+          x: 54,
+          y: 58,
+          title: "Organic Hemp Batting",
+          desc: "Durable organic hemp layer for unmatched structural integrity.",
+        },
+      ],
+    },
   },
   "hybrid-mattress-athens-signature": {
     slug: "hybrid-mattress-athens-signature",
@@ -1090,6 +1516,77 @@ export const PRODUCTS_DATA = {
         alt: "Earthfoam Hybrid Mattress Athens Signature",
       },
     ],
+    intro: {
+      title: "A spring mattress done right.",
+      subtitle: "A hand-crafted, two-sided mattress built to last.",
+    },
+    // zoomer1: {
+    //   image: "Hybrid-Carousel-01_640x400_q93.webp",
+    //   srcSet:
+    //     "/assets/Hybrid-Carousel-01_640x400_q93.webp 640w, /assets/Hybrid-Carousel-01_1024x640_q93.webp 1024w, /assets/Hybrid-Carousel-01_1280x800_q93.webp 1280w, /assets/Hybrid-Carousel-01_2560x1600_q93.webp 2560w",
+    //   videoNotification: null,
+    // },
+    imageCopy2: {
+      eyebrow: "Our Coil System",
+      title: "Introducing power loaded coils.",
+      paragraphs: [
+        "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
+        "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
+      ],
+      image: "spring-image03_640x829_q93.webp",
+      order: "",
+    },
+    hotspots: {
+      image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
+      srcSet:
+        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1024x575_q65.webp 1024w",
+      title: "DESIGN",
+      subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
+      layers: [
+        {
+          num: 1,
+          x: 38,
+          y: 82,
+          title: "Earthfoam Base",
+          desc: "Dense buoyant base support layer made of pure organic rubber.",
+        },
+        {
+          num: 2,
+          x: 46,
+          y: 72,
+          title: "Quad Coil System",
+          desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
+        },
+        {
+          num: 3,
+          x: 33,
+          y: 40,
+          title: "Earthfoam Comfort Layer",
+          desc: "Plush natural rubber cushion for pinpoint pressure relief across body contours.",
+        },
+        {
+          num: 4,
+          x: 51,
+          y: 41,
+          title: "Organic Wool Batting",
+          desc: "Temperature regulating, natural chemical-free flame retardant layer.",
+        },
+        {
+          num: 5,
+          x: 40,
+          y: 27,
+          title: "Organic Cotton Knit Face",
+          desc: "Luxurious heavyweight organic knit outer face fabric.",
+        },
+        {
+          num: 6,
+          x: 54,
+          y: 58,
+          title: "Organic Hemp Batting",
+          desc: "Durable organic hemp layer for unmatched structural integrity.",
+        },
+      ],
+    },
   },
   "hybrid-mattress-aurora": {
     slug: "hybrid-mattress-aurora",
@@ -1108,6 +1605,77 @@ export const PRODUCTS_DATA = {
         alt: "Earthfoam Hybrid Mattress Aurora",
       },
     ],
+    intro: {
+      title: "A spring mattress done right.",
+      subtitle: "A hand-crafted, two-sided mattress built to last.",
+    },
+    // zoomer1: {
+    //   image: "Hybrid-Carousel-01_640x400_q93.webp",
+    //   srcSet:
+    //     "/assets/Hybrid-Carousel-01_640x400_q93.webp 640w, /assets/Hybrid-Carousel-01_1024x640_q93.webp 1024w, /assets/Hybrid-Carousel-01_1280x800_q93.webp 1280w, /assets/Hybrid-Carousel-01_2560x1600_q93.webp 2560w",
+    //   videoNotification: null,
+    // },
+    imageCopy2: {
+      eyebrow: "Our Coil System",
+      title: "Introducing power loaded coils.",
+      paragraphs: [
+        "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
+        "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
+      ],
+      image: "spring-image03_640x829_q93.webp",
+      order: "",
+    },
+    hotspots: {
+      image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
+      srcSet:
+        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1024x575_q65.webp 1024w",
+      title: "DESIGN",
+      subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
+      layers: [
+        {
+          num: 1,
+          x: 38,
+          y: 82,
+          title: "Earthfoam Base",
+          desc: "Dense buoyant base support layer made of pure organic rubber.",
+        },
+        {
+          num: 2,
+          x: 46,
+          y: 72,
+          title: "Quad Coil System",
+          desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
+        },
+        {
+          num: 3,
+          x: 33,
+          y: 40,
+          title: "Earthfoam Comfort Layer",
+          desc: "Plush natural rubber cushion for pinpoint pressure relief across body contours.",
+        },
+        {
+          num: 4,
+          x: 51,
+          y: 41,
+          title: "Organic Wool Batting",
+          desc: "Temperature regulating, natural chemical-free flame retardant layer.",
+        },
+        {
+          num: 5,
+          x: 40,
+          y: 27,
+          title: "Organic Cotton Knit Face",
+          desc: "Luxurious heavyweight organic knit outer face fabric.",
+        },
+        {
+          num: 6,
+          x: 54,
+          y: 58,
+          title: "Organic Hemp Batting",
+          desc: "Durable organic hemp layer for unmatched structural integrity.",
+        },
+      ],
+    },
   },
 
 
