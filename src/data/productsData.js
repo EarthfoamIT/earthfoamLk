@@ -953,7 +953,7 @@ export const PRODUCTS_DATA = {
       {
         src: "Prod_Hero_Osaka01-640.webp",
         srcSet:
-          "/assets/Prod_Hero_Osaka01-640.webp 640w, /assets/Prod_Hero_Osaka01-1024.webp 1024w, /assets/Prod_Hero_Osaka01-1440.webp 1440w, /assets/Prod_Hero_Osaka01-1920.webp 1920w",
+          "/assets/Prod_Hero_Osaka01-640.webp 640w, /assets/Prod_Hero_Osaka01-1024.webp 1024w, /assets/Prod_Hero_Osaka01-1440.webp 1440w",
         alt: "Earthfoam Hybrid Mattress Osaka",
       },
     ],
@@ -997,7 +997,7 @@ export const PRODUCTS_DATA = {
       {
         src: "Prod_Hero_Ventura01-640.webp",
         srcSet:
-          "/assets/Prod_Hero_Ventura01-640.webp 640w, /assets/Prod_Hero_Ventura01-1024.webp 1024w, /assets/Prod_Hero_Ventura01-1440.webp 1440w, /assets/Prod_Hero_Ventura01-1920.webp 1920w",
+          "/assets/Prod_Hero_Ventura01-640.webp 640w, /assets/Prod_Hero_Ventura01-1024.webp 1024w, /assets/Prod_Hero_Ventura01-1440.webp 1440w",
         alt: "Earthfoam Hybrid Mattress Ventura",
       },
     ],
@@ -1024,7 +1024,7 @@ export const PRODUCTS_DATA = {
     hotspots: {
       image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
       srcSet:
-        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1024x575_q65.webp 1024w",
+        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1280x719_q93.webp 1280w, /assets/EF-SpringsCrossSection-Draft2_2560x1439_q93.webp 2560w",
       title: "DESIGN",
       subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
       layers: [
@@ -1113,7 +1113,7 @@ export const PRODUCTS_DATA = {
     hotspots: {
       image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
       srcSet:
-        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1024x575_q65.webp 1024w",
+        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1280x719_q93.webp 1280w, /assets/EF-SpringsCrossSection-Draft2_2560x1439_q93.webp 2560w",
       title: "DESIGN",
       subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
       layers: [
@@ -1175,7 +1175,7 @@ export const PRODUCTS_DATA = {
       {
         src: "Prod_Hero_Meriden01-640.webp",
         srcSet:
-          "/assets/Prod_Hero_Meriden01-640.webp 640w, /assets/Prod_Hero_Meriden01-1024.webp 1024w, /assets/Prod_Hero_Meriden01-1440.webp 1440w, /assets/Prod_Hero_Meriden01-1920.webp 1920w",
+          "/assets/Prod_Hero_Meriden01-640.webp 640w, /assets/Prod_Hero_Meriden01-1024.webp 1024w, /assets/Prod_Hero_Meriden01-1440.webp 1440w",
         alt: "Earthfoam Hybrid Mattress Meriden",
       },
     ],
@@ -1202,7 +1202,7 @@ export const PRODUCTS_DATA = {
     hotspots: {
       image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
       srcSet:
-        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1024x575_q65.webp 1024w",
+        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1280x719_q93.webp 1280w, /assets/EF-SpringsCrossSection-Draft2_2560x1439_q93.webp 2560w",
       title: "DESIGN",
       subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
       layers: [
@@ -1264,7 +1264,7 @@ export const PRODUCTS_DATA = {
       {
         src: "Prod_Hero_AthensEuroTop_01-640.webp",
         srcSet:
-          "/assets/Prod_Hero_AthensEuroTop_01-640.webp 640w, /assets/Prod_Hero_AthensEuroTop_01-1024.webp 1024w, /assets/Prod_Hero_AthensEuroTop_01-1440.webp 1440w, /assets/Prod_Hero_AthensEuroTop_01-1920.webp 1920w",
+          "/assets/Prod_Hero_AthensEuroTop_01-640.webp 640w, /assets/Prod_Hero_AthensEuroTop_01-1024.webp 1024w, /assets/Prod_Hero_AthensEuroTop_01-1440.webp 1440w",
         alt: "Earthfoam Hybrid Mattress Athens Euro Top",
       },
     ],
@@ -1291,7 +1291,7 @@ export const PRODUCTS_DATA = {
     hotspots: {
       image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
       srcSet:
-        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1024x575_q65.webp 1024w",
+        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1280x719_q93.webp 1280w, /assets/EF-SpringsCrossSection-Draft2_2560x1439_q93.webp 2560w",
       title: "DESIGN",
       subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
       layers: [
@@ -1353,7 +1353,7 @@ export const PRODUCTS_DATA = {
       {
         src: "Prod_Hero_AthensLegacy_01-640.webp",
         srcSet:
-          "/assets/Prod_Hero_AthensLegacy_01-640.webp 640w, /assets/Prod_Hero_AthensLegacy_01-1024.webp 1024w, /assets/Prod_Hero_AthensLegacy_01-1440.webp 1440w, /assets/Prod_Hero_AthensLegacy_01-1920.webp 1920w",
+          "/assets/Prod_Hero_AthensLegacy_01-640.webp 640w, /assets/Prod_Hero_AthensLegacy_01-1024.webp 1024w, /assets/Prod_Hero_AthensLegacy_01-1440.webp 1440w",
         alt: "Earthfoam Hybrid Mattress Athens Legacy",
       },
     ],
@@ -1380,7 +1380,7 @@ export const PRODUCTS_DATA = {
     hotspots: {
       image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
       srcSet:
-        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1024x575_q65.webp 1024w",
+        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1280x719_q93.webp 1280w, /assets/EF-SpringsCrossSection-Draft2_2560x1439_q93.webp 2560w",
       title: "DESIGN",
       subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
       layers: [
@@ -1442,7 +1442,7 @@ export const PRODUCTS_DATA = {
       {
         src: "Prod_Hero_AthensSignature_01-640.webp",
         srcSet:
-          "/assets/Prod_Hero_AthensSignature_01-640.webp 640w, /assets/Prod_Hero_AthensSignature_01-1024.webp 1024w, /assets/Prod_Hero_AthensSignature_01-1440.webp 1440w, /assets/Prod_Hero_AthensSignature_01-1920.webp 1920w",
+          "/assets/Prod_Hero_AthensSignature_01-640.webp 640w, /assets/Prod_Hero_AthensSignature_01-1024.webp 1024w, /assets/Prod_Hero_AthensSignature_01-1440.webp 1440w",
         alt: "Earthfoam Hybrid Mattress Athens Signature",
       },
     ],
@@ -1469,7 +1469,7 @@ export const PRODUCTS_DATA = {
     hotspots: {
       image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
       srcSet:
-        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1024x575_q65.webp 1024w",
+        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1280x719_q93.webp 1280w, /assets/EF-SpringsCrossSection-Draft2_2560x1439_q93.webp 2560w",
       title: "DESIGN",
       subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
       layers: [
@@ -1531,7 +1531,7 @@ export const PRODUCTS_DATA = {
       {
         src: "Prod_Hero_Aurora_01-640.webp",
         srcSet:
-          "/assets/Prod_Hero_Aurora_01-640.webp 640w, /assets/Prod_Hero_Aurora_01-1024.webp 1024w, /assets/Prod_Hero_Aurora_01-1440.webp 1440w, /assets/Prod_Hero_Aurora_01-1920.webp 1920w",
+          "/assets/Prod_Hero_Aurora_01-640.webp 640w, /assets/Prod_Hero_Aurora_01-1024.webp 1024w, /assets/Prod_Hero_Aurora_01-1440.webp 1440w",
         alt: "Earthfoam Hybrid Mattress Aurora",
       },
     ],
@@ -1558,7 +1558,7 @@ export const PRODUCTS_DATA = {
     hotspots: {
       image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
       srcSet:
-        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1024x575_q65.webp 1024w",
+        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1280x719_q93.webp 1280w, /assets/EF-SpringsCrossSection-Draft2_2560x1439_q93.webp 2560w",
       title: "DESIGN",
       subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
       layers: [
