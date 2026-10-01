@@ -971,6 +971,7 @@ export const PRODUCTS_DATA = {
     //     values: [{ name: "Firm" }],
     //   },
     // ],
+    
     materials: ["Hybrid Latex Foam", "Cooling Fabric", "Sheep Wool"],
     certifications: [
       { name: "Forest Stewardship Council (FSC)" },
@@ -982,7 +983,47 @@ export const PRODUCTS_DATA = {
     //   title: "What a dream.",
     //   subtitle: "Naturally breathable, comfy but firm, super supportive, no sinking feeling.",
     // },
-    
+    imageCopy2: {
+      eyebrow: "Our Foam Core",
+      title: "Introducing High-Density Hybrid Latex.",
+      paragraphs: [
+        "High-density hybrid latex is made by compressing shredded rubber foam into a dense, uniform core, significantly improving durability and resisting sagging over time.",
+        "Unlike standard foam, this core can be customized to virtually any shape and dimension, giving you a mattress built to fit your exact needs - sturdy, consistent, and made to last.",
+      ],
+      image: "Prod_Copy2_Osaka_01-1024.webp",
+      order: "",
+    },
+    hotspots: {
+      image: "Prod_Hotspot_Osaka_01-640.webp",
+      srcSet:
+        "/assets/Prod_Hotspot_Osaka_01-640.webp 640w, /assets/Prod_Hotspot_Osaka_01-1024.webp 1024w, /assets/Prod_Hotspot_Osaka_01-1440.webp 1440w, /assets/Prod_Hotspot_Osaka_01-1920.webp 1920w",
+      title: "DESIGN",
+      subtitle: "No glue. No Adhesives. Just natural latex and organic fabric.",
+      layers: [
+        {
+          num: 1,
+          x: 46,
+          y: 70,
+          title: "Earthfoam Hybrid Latex Base",
+          desc: "Dense buoyant base support layer made of pure organic rubber.",
+        },
+        {
+          num: 2,
+          x: 50,
+          y: 40,
+          title: "Earthfoam Comfort Layer",
+          desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
+        },
+        {
+          num: 3,
+          x: 65,
+          y: 32,
+          title: "Soft Latex Foam Quilted with Organic Fabric",
+          desc: "Plush natural rubber cushion for pinpoint pressure relief across body contours.",
+        },
+        
+      ],
+    },
   },
   "hybrid-mattress-ventura": {
     slug: "hybrid-mattress-ventura",
