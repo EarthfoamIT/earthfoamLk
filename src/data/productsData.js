@@ -979,10 +979,10 @@ export const PRODUCTS_DATA = {
       { name: "ISO 9001 : 2015" },
       { name: "ISO 14001" },
     ],
-    // intro: {
-    //   title: "What a dream.",
-    //   subtitle: "Naturally breathable, comfy but firm, super supportive, no sinking feeling.",
-    // },
+    intro: {
+      title: "The Hybrid Mattress That Gets It Right",
+      subtitle: "Layered for comfort, built to hold its shape, night after night.",
+    },
     imageCopy2: {
       eyebrow: "Our Foam Core",
       title: "Introducing High-Density Hybrid Latex.",
