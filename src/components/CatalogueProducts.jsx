@@ -246,6 +246,11 @@ export default function CatalogueProducts({ slug }) {
   const [openInfoDrawer, setOpenInfoDrawer] = useState(null);
   const [hoveredHotspot, setHoveredHotspot] = useState(null);
   const [expandedHotspot, setExpandedHotspot] = useState(null);
+  // Only layers with a desc have anything to expand into.
+  const toggleHotspot = (idx) => {
+    if (!product?.hotspots?.layers?.[idx]?.desc) return;
+    setExpandedHotspot(expandedHotspot === idx ? null : idx);
+  };
   // Natural width/height of the hotspot image, so the hotspot overlay can be
   // sized to match the image when it's cropped (object-fit: cover) to fill
   // the full height of the map column.
@@ -1138,7 +1143,7 @@ export default function CatalogueProducts({ slug }) {
                 style={{ left: `${layer.x}%`, top: `${layer.y}%` }}
                 onMouseEnter={() => setHoveredHotspot(idx)}
                 onMouseLeave={() => setHoveredHotspot(null)}
-                onClick={() => setExpandedHotspot(expandedHotspot === idx ? null : idx)}
+                onClick={() => toggleHotspot(idx)}
                 aria-label={`Layer ${layer.num}: ${layer.title}`}
               >
                 {layer.num}
@@ -1166,18 +1171,20 @@ export default function CatalogueProducts({ slug }) {
                     }`}
                     onMouseEnter={() => setHoveredHotspot(idx)}
                     onMouseLeave={() => setHoveredHotspot(null)}
-                    onClick={() => setExpandedHotspot(expandedHotspot === idx ? null : idx)}
-                    style={{paddingInline: "var(--space-xs-l)"}}
+                    onClick={() => toggleHotspot(idx)}
+                    style={{paddingInline: "var(--space-xs-l)", cursor: layer.desc ? "pointer" : "default"}}
                   >
                     <div className="list-row">
                       <div className="num">{layer.num}</div>
                       <h3 className="body-m font-medium">{layer.title}</h3>
                     </div>
-                    <div className="expand-cont">
-                      <p className="body-s expanded-content">
-                        {layer.desc}
-                      </p>
-                    </div>
+                    {layer.desc && (
+                      <div className="expand-cont">
+                        <p className="body-s expanded-content">
+                          {layer.desc}
+                        </p>
+                      </div>
+                    )}
                   </li>
                 ))}
               </ol>
