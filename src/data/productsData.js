@@ -947,8 +947,8 @@ export const PRODUCTS_DATA = {
     // price: "Rs. 150,000",
     pitch1:
       "Firm and supportive, it features premium and high-density latex layers for optimal body contouring. The organic cotton fabric cover, breathable latex, and natural sheep wool layer ensure excellent temperature regulation and all-night comfort",
-    pitch2:
-      "Made of natural rubber from organic farmers in Sri Lanka, organic wool from certified farmers around the world.",
+    // pitch2:
+      // "Made of natural rubber from organic farmers in Sri Lanka, organic wool from certified farmers around the world.",
     heroImages: [
       {
         src: "Prod_Hero_Osaka01-640.webp",
