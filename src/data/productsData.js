@@ -92,7 +92,7 @@ export const PRODUCTS_DATA = {
     certifications: [
       {
         name: "Global Organic Textile Standard (GOTS)",
-        href: "/assets/2026-EF-Cert-GOTS.jpg",
+        href: "/assets/2026-EF-Cert-GOTS.pdf",
       },
       {
         name: "Global Organic Latex Standard (GOLS)",
@@ -422,7 +422,7 @@ export const PRODUCTS_DATA = {
     certifications: [
       {
         name: "Global Organic Textile Standard (GOTS)",
-        href: "/assets/2026-EF-Cert-GOTS.jpg",
+        href: "/assets/2026-EF-Cert-GOTS.pdf",
       },
       {
         name: "Global Organic Latex Standard (GOLS)",
@@ -974,13 +974,22 @@ export const PRODUCTS_DATA = {
     
     materials: ["Hybrid Latex Foam", "Cooling Fabric", "Sheep Wool"],
     certifications: [
-      { name: "Forest Stewardship Council (FSC)" },
+      {
+        name: "Forest Stewardship Council (FSC)",
+        href: "/assets/2026-EF-Cert-FSC.pdf",
+      },
       { name: "Worldwide Responsible Accredited Production (WRAP)" },
-      { name: "ISO 9001 : 2015" },
-      { name: "ISO 14001" },
+      {
+        name: "ISO 9001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO9001.pdf",
+      },
+      {
+        name: "ISO 14001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO14001.pdf",
+      },
       {
         name: "Global Organic Textile Standard (GOTS)",
-        href: "/assets/2026-EF-Cert-GOTS.jpg",
+        href: "/assets/2026-EF-Cert-GOTS.pdf",
       },
     ],
     intro: {
@@ -989,7 +998,8 @@ export const PRODUCTS_DATA = {
     },
     imageCopy2: {
       eyebrow: "Our Foam Core",
-      title: "Introducing\nHigh-Density Hybrid Latex.",
+      // title: "Introducing High-Density Hybrid Latex.",
+      bullets: ["Introducing", "High-Density", "Hybrid Latex"],
       paragraphs: [
         "High-density hybrid latex is made by compressing shredded rubber foam into a dense, uniform core, significantly improving durability and resisting sagging over time.",
         "Unlike standard foam, this core can be customized to virtually any shape and dimension, giving you a mattress built to fit your exact needs - sturdy, consistent, and made to last.",
@@ -1048,10 +1058,19 @@ export const PRODUCTS_DATA = {
       },
     ],
     certifications: [
-      { name: "Forest Stewardship Council (FSC)" },
+      {
+        name: "Forest Stewardship Council (FSC)",
+        href: "/assets/2026-EF-Cert-FSC.pdf",
+      },
       { name: "Worldwide Responsible Accredited Production (WRAP)" },
-      { name: "ISO 9001 : 2015" },
-      { name: "ISO 14001" },
+      {
+        name: "ISO 9001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO9001.pdf",
+      },
+      {
+        name: "ISO 14001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO14001.pdf",
+      },
     ],
     intro: {
       title: "A spring mattress done right.",
@@ -1143,10 +1162,19 @@ export const PRODUCTS_DATA = {
       },
     ],
     certifications: [
-      { name: "Forest Stewardship Council (FSC)" },
+      {
+        name: "Forest Stewardship Council (FSC)",
+        href: "/assets/2026-EF-Cert-FSC.pdf",
+      },
       { name: "Worldwide Responsible Accredited Production (WRAP)" },
-      { name: "ISO 9001 : 2015" },
-      { name: "ISO 14001" },
+      {
+        name: "ISO 9001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO9001.pdf",
+      },
+      {
+        name: "ISO 14001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO14001.pdf",
+      },
     ],
     intro: {
       title: "A spring mattress done right.",
@@ -1238,10 +1266,19 @@ export const PRODUCTS_DATA = {
       },
     ],
     certifications: [
-      { name: "Forest Stewardship Council (FSC)" },
+      {
+        name: "Forest Stewardship Council (FSC)",
+        href: "/assets/2026-EF-Cert-FSC.pdf",
+      },
       { name: "Worldwide Responsible Accredited Production (WRAP)" },
-      { name: "ISO 9001 : 2015" },
-      { name: "ISO 14001" },
+      {
+        name: "ISO 9001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO9001.pdf",
+      },
+      {
+        name: "ISO 14001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO14001.pdf",
+      },
     ],
     intro: {
       title: "A spring mattress done right.",
@@ -1333,10 +1370,19 @@ export const PRODUCTS_DATA = {
       },
     ],
     certifications: [
-      { name: "Forest Stewardship Council (FSC)" },
+      {
+        name: "Forest Stewardship Council (FSC)",
+        href: "/assets/2026-EF-Cert-FSC.pdf",
+      },
       { name: "Worldwide Responsible Accredited Production (WRAP)" },
-      { name: "ISO 9001 : 2015" },
-      { name: "ISO 14001" },
+      {
+        name: "ISO 9001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO9001.pdf",
+      },
+      {
+        name: "ISO 14001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO14001.pdf",
+      },
     ],
     intro: {
       title: "A spring mattress done right.",
@@ -1428,10 +1474,19 @@ export const PRODUCTS_DATA = {
       },
     ],
     certifications: [
-      { name: "Forest Stewardship Council (FSC)" },
+      {
+        name: "Forest Stewardship Council (FSC)",
+        href: "/assets/2026-EF-Cert-FSC.pdf",
+      },
       { name: "Worldwide Responsible Accredited Production (WRAP)" },
-      { name: "ISO 9001 : 2015" },
-      { name: "ISO 14001" },
+      {
+        name: "ISO 9001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO9001.pdf",
+      },
+      {
+        name: "ISO 14001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO14001.pdf",
+      },
     ],
     intro: {
       title: "A spring mattress done right.",
@@ -1523,10 +1578,19 @@ export const PRODUCTS_DATA = {
       },
     ],
     certifications: [
-      { name: "Forest Stewardship Council (FSC)" },
+      {
+        name: "Forest Stewardship Council (FSC)",
+        href: "/assets/2026-EF-Cert-FSC.pdf",
+      },
       { name: "Worldwide Responsible Accredited Production (WRAP)" },
-      { name: "ISO 9001 : 2015" },
-      { name: "ISO 14001" },
+      {
+        name: "ISO 9001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO9001.pdf",
+      },
+      {
+        name: "ISO 14001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO14001.pdf",
+      },
     ],
     intro: {
       title: "A spring mattress done right.",
@@ -1618,10 +1682,19 @@ export const PRODUCTS_DATA = {
       },
     ],
     certifications: [
-      { name: "Forest Stewardship Council (FSC)" },
+      {
+        name: "Forest Stewardship Council (FSC)",
+        href: "/assets/2026-EF-Cert-FSC.pdf",
+      },
       { name: "Worldwide Responsible Accredited Production (WRAP)" },
-      { name: "ISO 9001 : 2015" },
-      { name: "ISO 14001" },
+      {
+        name: "ISO 9001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO9001.pdf",
+      },
+      {
+        name: "ISO 14001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO14001.pdf",
+      },
     ],
     intro: {
       title: "A spring mattress done right.",
@@ -2224,7 +2297,7 @@ export const PRODUCTS_DATA = {
     certifications: [
       {
         name: "Global Organic Textile Standard (GOTS)",
-        href: "/assets/2026-EF-Cert-GOTS.jpg",
+        href: "/assets/2026-EF-Cert-GOTS.pdf",
       },
       {
         name: "Oeko-Tex® Standard 100",
