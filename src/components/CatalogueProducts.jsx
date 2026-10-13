@@ -846,12 +846,12 @@ export default function CatalogueProducts({ slug }) {
                   ))}
               </ul>
 
-              <h3 className="body-m font-medium" style={{ marginTop: "16px", marginBottom: "6px" }}>Customer Experience</h3>
+              {/* <h3 className="body-m font-medium" style={{ marginTop: "16px", marginBottom: "6px" }}>Customer Experience</h3>
               <ul className="linkList">
                 <li><a href="/help/shipping-and-returns">Free shipping &amp; returns</a></li>
                 <li><a href="/help/shipping-and-returns">100-night trial. No questions asked</a></li>
                 <li><a href="/help/shipping-and-returns">Comprehensive warranty</a></li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>

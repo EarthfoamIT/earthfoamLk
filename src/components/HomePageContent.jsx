@@ -648,14 +648,14 @@ function ShippingAccordion() {
   const [openIndex, setOpenIndex] = useState(null);
   const items = [
     ["Free Delivery", "We deliver islandwide across Sri Lanka for free."],
-    [
-      "100 Night Trial",
-      "Our mattresses and toppers can be returned for free within 100 days of delivery. No questions asked.",
-    ],
-    [
-      "10 Year Warranty",
-      "Our mattresses and toppers are backed by a comprehensive 10-year warranty.",
-    ],
+    // [
+    //   "100 Night Trial",
+    //   "Our mattresses and toppers can be returned for free within 100 days of delivery. No questions asked.",
+    // ],
+    // [
+    //   "10 Year Warranty",
+    //   "Our mattresses and toppers are backed by a comprehensive 10-year warranty.",
+    // ],
   ];
 
   return (
@@ -1127,7 +1127,7 @@ export default function HomePageContent() {
       </section>
 
       <StoryMedia />
-      <ShippingAccordion />
+      {/* <ShippingAccordion /> */}
       <FeaturedProductCarousel />
       <BlogPosts />
       <ReviewVideos />

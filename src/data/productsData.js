@@ -92,7 +92,7 @@ export const PRODUCTS_DATA = {
     certifications: [
       {
         name: "Global Organic Textile Standard (GOTS)",
-        href: "/assets/2026-EF-Cert-GOTS.jpg",
+        href: "/assets/2026-EF-Cert-GOTS.pdf",
       },
       {
         name: "Global Organic Latex Standard (GOLS)",
@@ -422,7 +422,7 @@ export const PRODUCTS_DATA = {
     certifications: [
       {
         name: "Global Organic Textile Standard (GOTS)",
-        href: "/assets/2026-EF-Cert-GOTS.jpg",
+        href: "/assets/2026-EF-Cert-GOTS.pdf",
       },
       {
         name: "Global Organic Latex Standard (GOLS)",
@@ -974,10 +974,23 @@ export const PRODUCTS_DATA = {
     
     materials: ["Hybrid Latex Foam", "Cooling Fabric", "Sheep Wool"],
     certifications: [
-      { name: "Forest Stewardship Council (FSC)" },
+      {
+        name: "Forest Stewardship Council (FSC)",
+        href: "/assets/2026-EF-Cert-FSC.pdf",
+      },
       { name: "Worldwide Responsible Accredited Production (WRAP)" },
-      { name: "ISO 9001 : 2015" },
-      { name: "ISO 14001" },
+      {
+        name: "ISO 9001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO9001.pdf",
+      },
+      {
+        name: "ISO 14001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO14001.pdf",
+      },
+      {
+        name: "Global Organic Textile Standard (GOTS)",
+        href: "/assets/2026-EF-Cert-GOTS.pdf",
+      },
     ],
     intro: {
       title: "The Hybrid Mattress That Gets It Right",
@@ -985,12 +998,14 @@ export const PRODUCTS_DATA = {
     },
     imageCopy2: {
       eyebrow: "Our Foam Core",
-      title: "Introducing High-Density Hybrid Latex.",
+      // title: "Introducing High-Density Hybrid Latex.",
+      bullets: ["Introducing", "High-Density", "Hybrid Latex"],
       paragraphs: [
         "High-density hybrid latex is made by compressing shredded rubber foam into a dense, uniform core, significantly improving durability and resisting sagging over time.",
         "Unlike standard foam, this core can be customized to virtually any shape and dimension, giving you a mattress built to fit your exact needs - sturdy, consistent, and made to last.",
       ],
-      image: "Prod_Copy2_Osaka_01-1024.webp",
+      // image: "Prod_Copy2_Osaka_01-1024.webp",
+      image: "Home_2up_left_640x859_q93.webp",
       order: "",
     },
     hotspots: {
@@ -998,7 +1013,7 @@ export const PRODUCTS_DATA = {
       srcSet:
         "/assets/Prod_Hotspot_Osaka_01-640.webp 640w, /assets/Prod_Hotspot_Osaka_01-1024.webp 1024w, /assets/Prod_Hotspot_Osaka_01-1440.webp 1440w, /assets/Prod_Hotspot_Osaka_01-1920.webp 1920w",
       title: "DESIGN",
-      subtitle: "No glue. No Adhesives. Just natural latex and organic fabric.",
+      subtitle: "Just natural latex and organic fabric.",
       layers: [
         {
           num: 1,
@@ -1042,6 +1057,21 @@ export const PRODUCTS_DATA = {
         alt: "Earthfoam Hybrid Mattress Ventura",
       },
     ],
+    certifications: [
+      {
+        name: "Forest Stewardship Council (FSC)",
+        href: "/assets/2026-EF-Cert-FSC.pdf",
+      },
+      { name: "Worldwide Responsible Accredited Production (WRAP)" },
+      {
+        name: "ISO 9001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO9001.pdf",
+      },
+      {
+        name: "ISO 14001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO14001.pdf",
+      },
+    ],
     intro: {
       title: "A spring mattress done right.",
       subtitle: "Latex comfort layer, quiet pocket spring base, cool all night",
@@ -1067,7 +1097,7 @@ export const PRODUCTS_DATA = {
       srcSet:
         "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1280x719_q93.webp 1280w, /assets/EF-SpringsCrossSection-Draft2_2560x1439_q93.webp 2560w",
       title: "DESIGN",
-      subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
+      subtitle: "Just natural latex, cotton, wool and springs.",
       layers: [
         {
           num: 1,
@@ -1080,7 +1110,7 @@ export const PRODUCTS_DATA = {
           num: 2,
           x: 46,
           y: 72,
-          title: "Quad Coil System",
+          title: "Earthfoam Coil System",
           // desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
         },
         {
@@ -1108,7 +1138,7 @@ export const PRODUCTS_DATA = {
           num: 6,
           x: 54,
           y: 58,
-          title: "Supportive Felt Layers",
+          title: "Coil Latex Support Layer",
           // desc: "Durable organic hemp layer for unmatched structural integrity.",
         },
       ],
@@ -1131,93 +1161,19 @@ export const PRODUCTS_DATA = {
         alt: "Earthfoam Hybrid Mattress Brandford",
       },
     ],
-    intro: {
-      title: "A spring mattress done right.",
-      subtitle: "Latex comfort layer, quiet pocket spring base, cool all night",
-    },
-    // zoomer1: {
-    //   image: "Hybrid-Carousel-01_640x400_q93.webp",
-    //   srcSet:
-    //     "/assets/Hybrid-Carousel-01_640x400_q93.webp 640w, /assets/Hybrid-Carousel-01_1024x640_q93.webp 1024w, /assets/Hybrid-Carousel-01_1280x800_q93.webp 1280w, /assets/Hybrid-Carousel-01_2560x1600_q93.webp 2560w",
-    //   videoNotification: null,
-    // },
-    imageCopy2: {
-      eyebrow: "Our Coil System",
-      title: "Introducing power loaded coils.",
-      paragraphs: [
-        "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
-        "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
-      ],
-      image: "spring-image03_640x829_q93.webp",
-      order: "",
-    },
-    hotspots: {
-      image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
-      srcSet:
-        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1280x719_q93.webp 1280w, /assets/EF-SpringsCrossSection-Draft2_2560x1439_q93.webp 2560w",
-      title: "DESIGN",
-      subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
-      layers: [
-        {
-          num: 1,
-          x: 38,
-          y: 82,
-          title: "Earthfoam Base",
-          // desc: "Dense buoyant base support layer made of pure organic rubber.",
-        },
-        {
-          num: 2,
-          x: 46,
-          y: 72,
-          title: "Quad Coil System",
-          // desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
-        },
-        {
-          num: 3,
-          x: 33,
-          y: 40,
-          title: "Earthfoam Comfort Layer",
-          // desc: "Plush natural rubber cushion for pinpoint pressure relief across body contours.",
-        },
-        {
-          num: 4,
-          x: 61,
-          y: 65,
-          title: "Firm Latex Foam Edge",
-          // desc: "Temperature regulating, natural chemical-free flame retardant layer.",
-        },
-        {
-          num: 5,
-          x: 40,
-          y: 27,
-          title: "Soft Latex Foam Quilted with Organic Fabric",
-          // desc: "Luxurious heavyweight organic knit outer face fabric.",
-        },
-        {
-          num: 6,
-          x: 54,
-          y: 58,
-          title: "Supportive Felt Layers",
-          // desc: "Durable organic hemp layer for unmatched structural integrity.",
-        },
-      ],
-    },
-  },
-  "hybrid-mattress-meriden": {
-    slug: "hybrid-mattress-meriden",
-    title: "Meriden",
-    fullTitle: "Earthfoam Hybrid Mattress — Meriden",
-    subTitle: "Soft Pillow Top Mattress",
-    pitch1:
-      "A cushioned hybrid with a generous latex comfort layer over responsive coils, made for sleepers who want a softer feel without sacrificing support.",
-    pitch2:
-      "Made of natural rubber, organic wool batting for temperature regulation, and a soft quilted organic cotton cover.",
-    heroImages: [
+    certifications: [
       {
-        src: "Prod_Hero_Meriden01-640.webp",
-        srcSet:
-          "/assets/Prod_Hero_Meriden01-640.webp 640w, /assets/Prod_Hero_Meriden01-1024.webp 1024w, /assets/Prod_Hero_Meriden01-1440.webp 1440w",
-        alt: "Earthfoam Hybrid Mattress Meriden",
+        name: "Forest Stewardship Council (FSC)",
+        href: "/assets/2026-EF-Cert-FSC.pdf",
+      },
+      { name: "Worldwide Responsible Accredited Production (WRAP)" },
+      {
+        name: "ISO 9001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO9001.pdf",
+      },
+      {
+        name: "ISO 14001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO14001.pdf",
       },
     ],
     intro: {
@@ -1245,7 +1201,7 @@ export const PRODUCTS_DATA = {
       srcSet:
         "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1280x719_q93.webp 1280w, /assets/EF-SpringsCrossSection-Draft2_2560x1439_q93.webp 2560w",
       title: "DESIGN",
-      subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
+      subtitle: "Just natural latex, cotton, wool and springs.",
       layers: [
         {
           num: 1,
@@ -1258,7 +1214,111 @@ export const PRODUCTS_DATA = {
           num: 2,
           x: 46,
           y: 72,
-          title: "Quad Coil System",
+          title: "Earthfoam Coil System",
+          // desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
+        },
+        {
+          num: 3,
+          x: 33,
+          y: 40,
+          title: "Earthfoam Comfort Layer",
+          // desc: "Plush natural rubber cushion for pinpoint pressure relief across body contours.",
+        },
+        {
+          num: 4,
+          x: 61,
+          y: 65,
+          title: "Firm Latex Foam Edge",
+          // desc: "Temperature regulating, natural chemical-free flame retardant layer.",
+        },
+        {
+          num: 5,
+          x: 40,
+          y: 27,
+          title: "Soft Latex Foam Quilted with Organic Fabric",
+          // desc: "Luxurious heavyweight organic knit outer face fabric.",
+        },
+        {
+          num: 6,
+          x: 54,
+          y: 58,
+          title: "Coil Latex Support Layer",
+          // desc: "Durable organic hemp layer for unmatched structural integrity.",
+        },
+      ],
+    },
+  },
+  "hybrid-mattress-meriden": {
+    slug: "hybrid-mattress-meriden",
+    title: "Meriden",
+    fullTitle: "Earthfoam Hybrid Mattress — Meriden",
+    subTitle: "Soft Pillow Top Mattress",
+    pitch1:
+      "A cushioned hybrid with a generous latex comfort layer over responsive coils, made for sleepers who want a softer feel without sacrificing support.",
+    pitch2:
+      "Made of natural rubber, organic wool batting for temperature regulation, and a soft quilted organic cotton cover.",
+    heroImages: [
+      {
+        src: "Prod_Hero_Meriden01-640.webp",
+        srcSet:
+          "/assets/Prod_Hero_Meriden01-640.webp 640w, /assets/Prod_Hero_Meriden01-1024.webp 1024w, /assets/Prod_Hero_Meriden01-1440.webp 1440w",
+        alt: "Earthfoam Hybrid Mattress Meriden",
+      },
+    ],
+    certifications: [
+      {
+        name: "Forest Stewardship Council (FSC)",
+        href: "/assets/2026-EF-Cert-FSC.pdf",
+      },
+      { name: "Worldwide Responsible Accredited Production (WRAP)" },
+      {
+        name: "ISO 9001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO9001.pdf",
+      },
+      {
+        name: "ISO 14001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO14001.pdf",
+      },
+    ],
+    intro: {
+      title: "A spring mattress done right.",
+      subtitle: "Latex comfort layer, quiet pocket spring base, cool all night",
+    },
+    // zoomer1: {
+    //   image: "Hybrid-Carousel-01_640x400_q93.webp",
+    //   srcSet:
+    //     "/assets/Hybrid-Carousel-01_640x400_q93.webp 640w, /assets/Hybrid-Carousel-01_1024x640_q93.webp 1024w, /assets/Hybrid-Carousel-01_1280x800_q93.webp 1280w, /assets/Hybrid-Carousel-01_2560x1600_q93.webp 2560w",
+    //   videoNotification: null,
+    // },
+    imageCopy2: {
+      eyebrow: "Our Coil System",
+      title: "Introducing power loaded coils.",
+      paragraphs: [
+        "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
+        "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
+      ],
+      image: "spring-image03_640x829_q93.webp",
+      order: "",
+    },
+    hotspots: {
+      image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
+      srcSet:
+        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1280x719_q93.webp 1280w, /assets/EF-SpringsCrossSection-Draft2_2560x1439_q93.webp 2560w",
+      title: "DESIGN",
+      subtitle: "Just natural latex, cotton, wool and springs.",
+      layers: [
+        {
+          num: 1,
+          x: 38,
+          y: 82,
+          title: "Earthfoam Base",
+          // desc: "Dense buoyant base support layer made of pure organic rubber.",
+        },
+        {
+          num: 2,
+          x: 46,
+          y: 72,
+          title: "Earthfoam Coil System",
           // desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
         },
         {
@@ -1286,7 +1346,7 @@ export const PRODUCTS_DATA = {
           num: 6,
           x: 54,
           y: 58,
-          title: "Supportive Felt Layers",
+          title: "Coil Latex Support Layer",
           // desc: "Durable organic hemp layer for unmatched structural integrity.",
         },
       ],
@@ -1309,6 +1369,21 @@ export const PRODUCTS_DATA = {
         alt: "Earthfoam Hybrid Mattress Athens Euro Top",
       },
     ],
+    certifications: [
+      {
+        name: "Forest Stewardship Council (FSC)",
+        href: "/assets/2026-EF-Cert-FSC.pdf",
+      },
+      { name: "Worldwide Responsible Accredited Production (WRAP)" },
+      {
+        name: "ISO 9001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO9001.pdf",
+      },
+      {
+        name: "ISO 14001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO14001.pdf",
+      },
+    ],
     intro: {
       title: "A spring mattress done right.",
       subtitle: "Latex comfort layer, quiet pocket spring base, cool all night",
@@ -1334,7 +1409,7 @@ export const PRODUCTS_DATA = {
       srcSet:
         "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1280x719_q93.webp 1280w, /assets/EF-SpringsCrossSection-Draft2_2560x1439_q93.webp 2560w",
       title: "DESIGN",
-      subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
+      subtitle: "Just natural latex, cotton, wool and springs.",
       layers: [
         {
           num: 1,
@@ -1347,7 +1422,7 @@ export const PRODUCTS_DATA = {
           num: 2,
           x: 46,
           y: 72,
-          title: "Quad Coil System",
+          title: "Earthfoam Coil System",
           // desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
         },
         {
@@ -1375,7 +1450,7 @@ export const PRODUCTS_DATA = {
           num: 6,
           x: 54,
           y: 58,
-          title: "Supportive Felt Layers",
+          title: "Coil Latex Support Layer",
           // desc: "Durable organic hemp layer for unmatched structural integrity.",
         },
       ],
@@ -1398,6 +1473,21 @@ export const PRODUCTS_DATA = {
         alt: "Earthfoam Hybrid Mattress Athens Legacy",
       },
     ],
+    certifications: [
+      {
+        name: "Forest Stewardship Council (FSC)",
+        href: "/assets/2026-EF-Cert-FSC.pdf",
+      },
+      { name: "Worldwide Responsible Accredited Production (WRAP)" },
+      {
+        name: "ISO 9001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO9001.pdf",
+      },
+      {
+        name: "ISO 14001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO14001.pdf",
+      },
+    ],
     intro: {
       title: "A spring mattress done right.",
       subtitle: "Latex comfort layer, quiet pocket spring base, cool all night",
@@ -1423,7 +1513,7 @@ export const PRODUCTS_DATA = {
       srcSet:
         "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1280x719_q93.webp 1280w, /assets/EF-SpringsCrossSection-Draft2_2560x1439_q93.webp 2560w",
       title: "DESIGN",
-      subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
+      subtitle: "Just natural latex, cotton, wool and springs.",
       layers: [
         {
           num: 1,
@@ -1436,7 +1526,7 @@ export const PRODUCTS_DATA = {
           num: 2,
           x: 46,
           y: 72,
-          title: "Quad Coil System",
+          title: "Earthfoam Coil System",
           // desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
         },
         {
@@ -1464,7 +1554,7 @@ export const PRODUCTS_DATA = {
           num: 6,
           x: 54,
           y: 58,
-          title: "Supportive Felt Layers",
+          title: "Coil Latex Support Layer",
           // desc: "Durable organic hemp layer for unmatched structural integrity.",
         },
       ],
@@ -1487,93 +1577,19 @@ export const PRODUCTS_DATA = {
         alt: "Earthfoam Hybrid Mattress Athens Signature",
       },
     ],
-    intro: {
-      title: "A spring mattress done right.",
-      subtitle: "Latex comfort layer, quiet pocket spring base, cool all night",
-    },
-    // zoomer1: {
-    //   image: "Hybrid-Carousel-01_640x400_q93.webp",
-    //   srcSet:
-    //     "/assets/Hybrid-Carousel-01_640x400_q93.webp 640w, /assets/Hybrid-Carousel-01_1024x640_q93.webp 1024w, /assets/Hybrid-Carousel-01_1280x800_q93.webp 1280w, /assets/Hybrid-Carousel-01_2560x1600_q93.webp 2560w",
-    //   videoNotification: null,
-    // },
-    imageCopy2: {
-      eyebrow: "Our Coil System",
-      title: "Introducing power loaded coils.",
-      paragraphs: [
-        "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
-        "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
-      ],
-      image: "spring-image03_640x829_q93.webp",
-      order: "",
-    },
-    hotspots: {
-      image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
-      srcSet:
-        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1280x719_q93.webp 1280w, /assets/EF-SpringsCrossSection-Draft2_2560x1439_q93.webp 2560w",
-      title: "DESIGN",
-      subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
-      layers: [
-        {
-          num: 1,
-          x: 38,
-          y: 82,
-          title: "Earthfoam Base",
-          // desc: "Dense buoyant base support layer made of pure organic rubber.",
-        },
-        {
-          num: 2,
-          x: 46,
-          y: 72,
-          title: "Quad Coil System",
-          // desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
-        },
-        {
-          num: 3,
-          x: 33,
-          y: 40,
-          title: "Earthfoam Comfort Layer",
-          // desc: "Plush natural rubber cushion for pinpoint pressure relief across body contours.",
-        },
-        {
-          num: 4,
-          x: 61,
-          y: 65,
-          title: "Firm Latex Foam Edge",
-          // desc: "Temperature regulating, natural chemical-free flame retardant layer.",
-        },
-        {
-          num: 5,
-          x: 40,
-          y: 27,
-          title: "Soft Latex Foam Quilted with Organic Fabric",
-          // desc: "Luxurious heavyweight organic knit outer face fabric.",
-        },
-        {
-          num: 6,
-          x: 54,
-          y: 58,
-          title: "Supportive Felt Layers",
-          // desc: "Durable organic hemp layer for unmatched structural integrity.",
-        },
-      ],
-    },
-  },
-  "hybrid-mattress-aurora": {
-    slug: "hybrid-mattress-aurora",
-    title: "Aurora",
-    fullTitle: "Earthfoam Hybrid Mattress — Aurora",
-    subTitle: "Soft Euro Top Mattress",
-    pitch1:
-      "A brighter, breathable hybrid built to sleep cool, pairing airy latex comfort with a coil base that keeps air moving through the night.",
-    pitch2:
-      "Made of natural rubber, individually wrapped coils for airflow and motion isolation, and a soft, breathable organic cotton cover.",
-    heroImages: [
+    certifications: [
       {
-        src: "Prod_Hero_Aurora_01-640.webp",
-        srcSet:
-          "/assets/Prod_Hero_Aurora_01-640.webp 640w, /assets/Prod_Hero_Aurora_01-1024.webp 1024w, /assets/Prod_Hero_Aurora_01-1440.webp 1440w",
-        alt: "Earthfoam Hybrid Mattress Aurora",
+        name: "Forest Stewardship Council (FSC)",
+        href: "/assets/2026-EF-Cert-FSC.pdf",
+      },
+      { name: "Worldwide Responsible Accredited Production (WRAP)" },
+      {
+        name: "ISO 9001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO9001.pdf",
+      },
+      {
+        name: "ISO 14001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO14001.pdf",
       },
     ],
     intro: {
@@ -1601,7 +1617,7 @@ export const PRODUCTS_DATA = {
       srcSet:
         "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1280x719_q93.webp 1280w, /assets/EF-SpringsCrossSection-Draft2_2560x1439_q93.webp 2560w",
       title: "DESIGN",
-      subtitle: "No glue. No Adhesives. Just natural latex, cotton, wool and springs.",
+      subtitle: "Just natural latex, cotton, wool and springs.",
       layers: [
         {
           num: 1,
@@ -1614,7 +1630,7 @@ export const PRODUCTS_DATA = {
           num: 2,
           x: 46,
           y: 72,
-          title: "Quad Coil System",
+          title: "Earthfoam Coil System",
           // desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
         },
         {
@@ -1642,7 +1658,111 @@ export const PRODUCTS_DATA = {
           num: 6,
           x: 54,
           y: 58,
-          title: "Supportive Felt Layers",
+          title: "Coil Latex Support Layer",
+          // desc: "Durable organic hemp layer for unmatched structural integrity.",
+        },
+      ],
+    },
+  },
+  "hybrid-mattress-aurora": {
+    slug: "hybrid-mattress-aurora",
+    title: "Aurora",
+    fullTitle: "Earthfoam Hybrid Mattress — Aurora",
+    subTitle: "Soft Euro Top Mattress",
+    pitch1:
+      "A brighter, breathable hybrid built to sleep cool, pairing airy latex comfort with a coil base that keeps air moving through the night.",
+    pitch2:
+      "Made of natural rubber, individually wrapped coils for airflow and motion isolation, and a soft, breathable organic cotton cover.",
+    heroImages: [
+      {
+        src: "Prod_Hero_Aurora_01-640.webp",
+        srcSet:
+          "/assets/Prod_Hero_Aurora_01-640.webp 640w, /assets/Prod_Hero_Aurora_01-1024.webp 1024w, /assets/Prod_Hero_Aurora_01-1440.webp 1440w",
+        alt: "Earthfoam Hybrid Mattress Aurora",
+      },
+    ],
+    certifications: [
+      {
+        name: "Forest Stewardship Council (FSC)",
+        href: "/assets/2026-EF-Cert-FSC.pdf",
+      },
+      { name: "Worldwide Responsible Accredited Production (WRAP)" },
+      {
+        name: "ISO 9001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO9001.pdf",
+      },
+      {
+        name: "ISO 14001 : 2015",
+        href: "/assets/2026-EF-Cert-ISO14001.pdf",
+      },
+    ],
+    intro: {
+      title: "A spring mattress done right.",
+      subtitle: "Latex comfort layer, quiet pocket spring base, cool all night",
+    },
+    // zoomer1: {
+    //   image: "Hybrid-Carousel-01_640x400_q93.webp",
+    //   srcSet:
+    //     "/assets/Hybrid-Carousel-01_640x400_q93.webp 640w, /assets/Hybrid-Carousel-01_1024x640_q93.webp 1024w, /assets/Hybrid-Carousel-01_1280x800_q93.webp 1280w, /assets/Hybrid-Carousel-01_2560x1600_q93.webp 2560w",
+    //   videoNotification: null,
+    // },
+    imageCopy2: {
+      eyebrow: "Our Coil System",
+      title: "Introducing power loaded coils.",
+      paragraphs: [
+        "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
+        "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
+      ],
+      image: "spring-image03_640x829_q93.webp",
+      order: "",
+    },
+    hotspots: {
+      image: "EF-SpringsCrossSection-Draft2_640x359_q93.webp",
+      srcSet:
+        "/assets/EF-SpringsCrossSection-Draft2_640x359_q93.webp 640w, /assets/EF-SpringsCrossSection-Draft2_1280x719_q93.webp 1280w, /assets/EF-SpringsCrossSection-Draft2_2560x1439_q93.webp 2560w",
+      title: "DESIGN",
+      subtitle: "Just natural latex, cotton, wool and springs.",
+      layers: [
+        {
+          num: 1,
+          x: 38,
+          y: 82,
+          title: "Earthfoam Base",
+          // desc: "Dense buoyant base support layer made of pure organic rubber.",
+        },
+        {
+          num: 2,
+          x: 46,
+          y: 72,
+          title: "Earthfoam Coil System",
+          // desc: "Tempered heat-treated pocketed springs connected without chemical glues.",
+        },
+        {
+          num: 3,
+          x: 33,
+          y: 40,
+          title: "Earthfoam Comfort Layer",
+          // desc: "Plush natural rubber cushion for pinpoint pressure relief across body contours.",
+        },
+        {
+          num: 4,
+          x: 61,
+          y: 65,
+          title: "Firm Latex Foam Edge",
+          // desc: "Temperature regulating, natural chemical-free flame retardant layer.",
+        },
+        {
+          num: 5,
+          x: 40,
+          y: 27,
+          title: "Soft Latex Foam Quilted with Organic Fabric",
+          // desc: "Luxurious heavyweight organic knit outer face fabric.",
+        },
+        {
+          num: 6,
+          x: 54,
+          y: 58,
+          title: "Coil Latex Support Layer",
           // desc: "Durable organic hemp layer for unmatched structural integrity.",
         },
       ],
@@ -2175,8 +2295,14 @@ export const PRODUCTS_DATA = {
       "Natural latex with a single jersey inner cover"
     ],
     certifications: [
-      { name: "Global Organic Textile Standard (GOTS)" },
-      { name: "Oeko-Tex® Standard 100" },
+      {
+        name: "Global Organic Textile Standard (GOTS)",
+        href: "/assets/2026-EF-Cert-GOTS.pdf",
+      },
+      {
+        name: "Oeko-Tex® Standard 100",
+        href: "/assets/17.HUS.25845%20-en.jpg",
+      },
     ],
   },
   "pillow-contour": {
