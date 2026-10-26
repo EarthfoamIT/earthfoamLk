@@ -141,7 +141,7 @@ export const PRODUCTS_DATA = {
       paragraphs: [
         "Natural rubber is so good. But it’s misunderstood. This springy material comes from trees. Trees! The word rubber sounds plasticky and artificial, but it’s the most natural, breathable, durable, and sustainable material available for mattresses.",
         "We source our liquid rubber from a network of independent farmers in Sri Lanka, and we process it at our own factory nearby. To bond liquid rubber molecules into plush foam, we mix it with a small amount of sulfur, zinc oxide, accelerators, and antioxidants. Our foam has earned the most stringent organic, fair trade, and health certifications available.",
-        "Our mattresses also feature GOTS-certified organic wool and cotton. Our wool comes from a farmer-owned collective in New Zealand dedicated to high-quality wool, happy sheep, and sustainability. Our cotton is grown in India and Turkey without the use of pesticides or synthetic fertilizer and processed in certified organic factories in Canada, Germany, and Pakistan.",
+        "Our mattresses also feature GOTS-certified organic wool and cotton. Our wool comes from a farmer-owned collective dedicated to high-quality wool, animal welfare, and sustainability. Our cotton is grown in India without the use of pesticides or synthetic fertilizer and processed in certified organic factories in India and Pakistan."
       ],
       image: "Home_2up_left_640x859_q93.webp",
       order: "",
@@ -227,26 +227,26 @@ export const PRODUCTS_DATA = {
         link: "https://www.thegoodtrade.com/features/earthfoam-mattress-review/",
       },
     ],
-    guarantee: {
-      title: "We want shopping for an Earthfoam mattress to be as nice as sleeping on one.",
-      items: [
-        {
-          title: "Free shipping & free returns",
-          body: "We ship for free to the Contiguous USA and offer hassle-free returns.",
-          link: "/help/shipping-and-returns",
-        },
-        {
-          title: "100-night trial",
-          body: "Our mattresses and toppers can be returned for free within 100 days of delivery. No questions asked.",
-          link: "/help/shipping-and-returns",
-        },
-        {
-          title: "10-year warranty",
-          body: "We stand behind all of our products and include a comprehensive 10-year warranty for our mattresses.",
-          link: "/help/mattress-warranty",
-        },
-      ],
-    },
+    // guarantee: {
+    //   title: "We want shopping for an Earthfoam mattress to be as nice as sleeping on one.",
+    //   items: [
+    //     {
+    //       title: "Free shipping & free returns",
+    //       body: "We ship for free to the Contiguous USA and offer hassle-free returns.",
+    //       link: "/help/shipping-and-returns",
+    //     },
+    //     {
+    //       title: "100-night trial",
+    //       body: "Our mattresses and toppers can be returned for free within 100 days of delivery. No questions asked.",
+    //       link: "/help/shipping-and-returns",
+    //     },
+    //     {
+    //       title: "10-year warranty",
+    //       body: "We stand behind all of our products and include a comprehensive 10-year warranty for our mattresses.",
+    //       link: "/help/mattress-warranty",
+    //     },
+    //   ],
+    // },
     faqCategories: [
       {
         title: "Overview",
@@ -454,7 +454,7 @@ export const PRODUCTS_DATA = {
         "Natural rubber is so good. But it’s misunderstood.",
         "This springy material comes from trees. Trees! The word rubber sounds plasticky and artificial, but it’s the most natural, breathable, durable, and sustainable material available for mattresses.",
         "We source our rubber tree sap (natural latex) from a fair trade network of independent organic farmers in Sri Lanka, and we process it at our own factory nearby. Our supply chain is completely transparent, which has earned our foam the most stringent organic, fair trade, and health certifications available.",
-        "Our toppers also feature GOTS-certified organic wool and cotton. Our wool comes from a farmer-owned collective in New Zealand dedicated to high-quality wool, happy sheep, and sustainability. Our cotton is grown in India and Turkey without the use of pesticides or synthetic fertilizer and processed in certified organic factories in Canada, Germany, and Pakistan.",
+        "Our mattresses also feature GOTS-certified organic wool and cotton. Our wool comes from a farmer-owned collective dedicated to high-quality wool, animal welfare, and sustainability. Our cotton is grown in India without the use of pesticides or synthetic fertilizer and processed in certified organic factories in India and Pakistan."
       ],
       image: "Home_2up_left_640x859_q93.webp",
       order: "",
@@ -527,26 +527,26 @@ export const PRODUCTS_DATA = {
         link: "https://www.thegoodtrade.com/features/organic-mattress-toppers/",
       },
     ],
-    guarantee: {
-      title: "We want shopping for an Earthfoam topper to be as nice as sleeping on one.",
-      items: [
-        {
-          title: "Free shipping & free returns",
-          body: "We ship for free to the Contiguous USA.",
-          link: "/help/shipping-and-returns",
-        },
-        {
-          title: "100-night trial",
-          body: "Our mattresses and toppers can be returned for free within 100 days of delivery. No questions asked.",
-          link: "/help/shipping-and-returns",
-        },
-        {
-          title: "5-year warranty",
-          body: "We stand behind all of our products and include a comprehensive 5-year warranty for our toppers.",
-          link: "/help/mattress-topper-warranty",
-        },
-      ],
-    },
+    // guarantee: {
+    //   title: "We want shopping for an Earthfoam topper to be as nice as sleeping on one.",
+    //   items: [
+    //     {
+    //       title: "Free shipping & free returns",
+    //       body: "We ship for free to the Contiguous USA.",
+    //       link: "/help/shipping-and-returns",
+    //     },
+    //     {
+    //       title: "100-night trial",
+    //       body: "Our mattresses and toppers can be returned for free within 100 days of delivery. No questions asked.",
+    //       link: "/help/shipping-and-returns",
+    //     },
+    //     {
+    //       title: "5-year warranty",
+    //       body: "We stand behind all of our products and include a comprehensive 5-year warranty for our toppers.",
+    //       link: "/help/mattress-topper-warranty",
+    //     },
+    //   ],
+    // },
     faqCategories: [
       {
         title: "Overview",
@@ -1084,12 +1084,14 @@ export const PRODUCTS_DATA = {
     // },
     imageCopy2: {
       eyebrow: "Our Coil System",
-      title: "Introducing power loaded coils.",
+      title: "Pocket Spring Technology",
       paragraphs: [
-        "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
-        "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
+        "Every spring in your mattress gets its own cozy pocket. Also known as encased coils, pocket coils, or Marshall coils, each pocket spring is a steel coil wrapped in its own breathable fabric sleeve.",
+        "Unlike traditional interconnected innerspring mattresses, where one pressed coil pulls its neighbors down with it, each pocket spring moves on its own. It responds only to the pressure right above it, so your body gets targeted support exactly where you need it, and your partner’s movements stay on their side of the bed.",
       ],
-      image: "spring-image03_640x829_q93.webp",
+      image: "Prod_Copy2_PocketSpring_01-640.webp",
+      srcSet:
+        "/assets/Prod_Copy2_PocketSpring_01-640.webp 640w, /assets/Prod_Copy2_PocketSpring_01-1024.webp 1024w, /assets/Prod_Copy2_PocketSpring_01-1440.webp 1440w, /assets/Prod_Copy2_PocketSpring_01-1920.webp 1920w",
       order: "",
     },
     hotspots: {
@@ -1188,12 +1190,14 @@ export const PRODUCTS_DATA = {
     // },
     imageCopy2: {
       eyebrow: "Our Coil System",
-      title: "Introducing power loaded coils.",
+      title: "Pocket Spring Technology",
       paragraphs: [
-        "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
-        "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
+        "Every spring in your mattress gets its own cozy pocket. Also known as encased coils, pocket coils, or Marshall coils, each pocket spring is a steel coil wrapped in its own breathable fabric sleeve.",
+        "Unlike traditional interconnected innerspring mattresses, where one pressed coil pulls its neighbors down with it, each pocket spring moves on its own. It responds only to the pressure right above it, so your body gets targeted support exactly where you need it, and your partner’s movements stay on their side of the bed.",
       ],
-      image: "spring-image03_640x829_q93.webp",
+      image: "Prod_Copy2_PocketSpring_01-640.webp",
+      srcSet:
+        "/assets/Prod_Copy2_PocketSpring_01-640.webp 640w, /assets/Prod_Copy2_PocketSpring_01-1024.webp 1024w, /assets/Prod_Copy2_PocketSpring_01-1440.webp 1440w, /assets/Prod_Copy2_PocketSpring_01-1920.webp 1920w",
       order: "",
     },
     hotspots: {
@@ -1292,12 +1296,14 @@ export const PRODUCTS_DATA = {
     // },
     imageCopy2: {
       eyebrow: "Our Coil System",
-      title: "Introducing power loaded coils.",
+      title: "Pocket Spring Technology",
       paragraphs: [
-        "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
-        "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
+        "Every spring in your mattress gets its own cozy pocket. Also known as encased coils, pocket coils, or Marshall coils, each pocket spring is a steel coil wrapped in its own breathable fabric sleeve.",
+        "Unlike traditional interconnected innerspring mattresses, where one pressed coil pulls its neighbors down with it, each pocket spring moves on its own. It responds only to the pressure right above it, so your body gets targeted support exactly where you need it, and your partner’s movements stay on their side of the bed.",
       ],
-      image: "spring-image03_640x829_q93.webp",
+      image: "Prod_Copy2_PocketSpring_01-640.webp",
+      srcSet:
+        "/assets/Prod_Copy2_PocketSpring_01-640.webp 640w, /assets/Prod_Copy2_PocketSpring_01-1024.webp 1024w, /assets/Prod_Copy2_PocketSpring_01-1440.webp 1440w, /assets/Prod_Copy2_PocketSpring_01-1920.webp 1920w",
       order: "",
     },
     hotspots: {
@@ -1396,12 +1402,14 @@ export const PRODUCTS_DATA = {
     // },
     imageCopy2: {
       eyebrow: "Our Coil System",
-      title: "Introducing power loaded coils.",
+      title: "Pocket Spring Technology",
       paragraphs: [
-        "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
-        "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
+        "Every spring in your mattress gets its own cozy pocket. Also known as encased coils, pocket coils, or Marshall coils, each pocket spring is a steel coil wrapped in its own breathable fabric sleeve.",
+        "Unlike traditional interconnected innerspring mattresses, where one pressed coil pulls its neighbors down with it, each pocket spring moves on its own. It responds only to the pressure right above it, so your body gets targeted support exactly where you need it, and your partner’s movements stay on their side of the bed.",
       ],
-      image: "spring-image03_640x829_q93.webp",
+      image: "Prod_Copy2_PocketSpring_01-640.webp",
+      srcSet:
+        "/assets/Prod_Copy2_PocketSpring_01-640.webp 640w, /assets/Prod_Copy2_PocketSpring_01-1024.webp 1024w, /assets/Prod_Copy2_PocketSpring_01-1440.webp 1440w, /assets/Prod_Copy2_PocketSpring_01-1920.webp 1920w",
       order: "",
     },
     hotspots: {
@@ -1500,12 +1508,14 @@ export const PRODUCTS_DATA = {
     // },
     imageCopy2: {
       eyebrow: "Our Coil System",
-      title: "Introducing power loaded coils.",
+      title: "Pocket Spring Technology",
       paragraphs: [
-        "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
-        "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
+        "Every spring in your mattress gets its own cozy pocket. Also known as encased coils, pocket coils, or Marshall coils, each pocket spring is a steel coil wrapped in its own breathable fabric sleeve.",
+        "Unlike traditional interconnected innerspring mattresses, where one pressed coil pulls its neighbors down with it, each pocket spring moves on its own. It responds only to the pressure right above it, so your body gets targeted support exactly where you need it, and your partner’s movements stay on their side of the bed.",
       ],
-      image: "spring-image03_640x829_q93.webp",
+      image: "Prod_Copy2_PocketSpring_01-640.webp",
+      srcSet:
+        "/assets/Prod_Copy2_PocketSpring_01-640.webp 640w, /assets/Prod_Copy2_PocketSpring_01-1024.webp 1024w, /assets/Prod_Copy2_PocketSpring_01-1440.webp 1440w, /assets/Prod_Copy2_PocketSpring_01-1920.webp 1920w",
       order: "",
     },
     hotspots: {
@@ -1604,12 +1614,14 @@ export const PRODUCTS_DATA = {
     // },
     imageCopy2: {
       eyebrow: "Our Coil System",
-      title: "Introducing power loaded coils.",
+      title: "Pocket Spring Technology",
       paragraphs: [
-        "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
-        "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
+        "Every spring in your mattress gets its own cozy pocket. Also known as encased coils, pocket coils, or Marshall coils, each pocket spring is a steel coil wrapped in its own breathable fabric sleeve.",
+        "Unlike traditional interconnected innerspring mattresses, where one pressed coil pulls its neighbors down with it, each pocket spring moves on its own. It responds only to the pressure right above it, so your body gets targeted support exactly where you need it, and your partner’s movements stay on their side of the bed.",
       ],
-      image: "spring-image03_640x829_q93.webp",
+      image: "Prod_Copy2_PocketSpring_01-640.webp",
+      srcSet:
+        "/assets/Prod_Copy2_PocketSpring_01-640.webp 640w, /assets/Prod_Copy2_PocketSpring_01-1024.webp 1024w, /assets/Prod_Copy2_PocketSpring_01-1440.webp 1440w, /assets/Prod_Copy2_PocketSpring_01-1920.webp 1920w",
       order: "",
     },
     hotspots: {
@@ -1708,12 +1720,14 @@ export const PRODUCTS_DATA = {
     // },
     imageCopy2: {
       eyebrow: "Our Coil System",
-      title: "Introducing power loaded coils.",
+      title: "Pocket Spring Technology",
       paragraphs: [
-        "Power-loaded coils, also known as pre-loaded or power-packing, significantly improve the durability of the coil system and eliminate sag by utilizing a coil that is 2” taller than the pocket.",
-        "The lack of glue not only means this mattress holds the same organic and safety certifications, but it is sturdier, stronger, and longer lasting.",
+        "Every spring in your mattress gets its own cozy pocket. Also known as encased coils, pocket coils, or Marshall coils, each pocket spring is a steel coil wrapped in its own breathable fabric sleeve.",
+        "Unlike traditional interconnected innerspring mattresses, where one pressed coil pulls its neighbors down with it, each pocket spring moves on its own. It responds only to the pressure right above it, so your body gets targeted support exactly where you need it, and your partner’s movements stay on their side of the bed.",
       ],
-      image: "spring-image03_640x829_q93.webp",
+      image: "Prod_Copy2_PocketSpring_01-640.webp",
+      srcSet:
+        "/assets/Prod_Copy2_PocketSpring_01-640.webp 640w, /assets/Prod_Copy2_PocketSpring_01-1024.webp 1024w, /assets/Prod_Copy2_PocketSpring_01-1440.webp 1440w, /assets/Prod_Copy2_PocketSpring_01-1920.webp 1920w",
       order: "",
     },
     hotspots: {

@@ -1066,6 +1066,7 @@ export default function CatalogueProducts({ slug }) {
             {product.imageCopy2.image && (
               <img
                 src={asset(product.imageCopy2.image)}
+                srcSet={product.imageCopy2.srcSet}
                 alt=""
                 sizes="(min-width: 1024px) 50vw, 100vw"
                 className="lg:rounded"
